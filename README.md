@@ -16,7 +16,7 @@
 
 ### Ссылки
 
-- Хостинг: [https://lustrous-halva-48657a.netlify.app/](https://lustrous-halva-48657a.netlify.app/)
+- Хостинг: [https://melodious-madeleine-468c9e.netlify.app/](https://melodious-madeleine-468c9e.netlify.app/)
 
 ## Что и как?
 
