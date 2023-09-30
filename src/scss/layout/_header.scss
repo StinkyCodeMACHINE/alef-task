@@ -1,0 +1,28 @@
+@use "../util/functions" as u;
+
+.header {
+  background-color: var(--white);
+  display: flex;
+  padding: u.rem(24) u.rem(51) u.rem(23) u.rem(51);
+  align-items: center;
+  color: var(--gray);
+  border-bottom: 1px solid var(--grayer-gray);
+
+  img {
+    width: 93px;
+    height: 29px;
+  }
+
+  &__page-selection-container {
+    margin-inline: auto;
+    display: flex;
+    gap: u.rem(24);
+    font-size: u.rem(14);
+    font-weight: 400;
+
+    div {
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+}

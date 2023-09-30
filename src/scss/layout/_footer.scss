@@ -1,0 +1,13 @@
+@use "../util/functions" as u;
+
+footer {
+  background-color: var(--gray-m);
+  color: var(--black);
+  font-size: u.rem(13);
+  font-weight: 400;
+  width: 100%;
+  padding-block: u.rem(30);
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}

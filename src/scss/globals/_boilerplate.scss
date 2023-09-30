@@ -1,0 +1,26 @@
+@use "../util/functions" as u;
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  padding-block: u.rem(30);
+  display: grid;
+  justify-content: center;
+  min-height: 616px;
+  box-sizing: border-box;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

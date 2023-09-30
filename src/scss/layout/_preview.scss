@@ -1,0 +1,33 @@
+@use "../util/functions" as u;
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  gap: u.rem(60);
+
+  &__data-container {
+    display: flex;
+    flex-direction: column;
+    gap: u.rem(20);
+
+    h2 {
+      color: var(--cooler-black);
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 24px; /* 150% */
+    }
+  }
+
+  &__data-value {
+    color: var(--cooler-black);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 24px;
+
+    &.kid {
+      padding: u.rem(10) u.rem(20);
+      border-radius: 5px;
+      background: var(--gray-l);
+    }
+  }
+}
